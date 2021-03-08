@@ -1,0 +1,42 @@
+    #card {
+        margin: 8%;
+        position: absolute;
+        height: auto;
+        width: 350px;
+        border-radius: 10px;
+        background-color: white;
+        background-image: url("https://image.freepik.com/free-vector/open-gift-box-with-heart-shape-confetti-burst-explosion-3d-valentines-day-romantic-gift_165143-438.jpg");
+        background-size: 50vh, 70vh;
+        box-shadow: 0px 0px 20px red;
+        transform: rotate(5deg);
+        top: 0px;
+        opacity: 0;
+        left: -200%;
+    }
+
+    .honey {
+        margin: auto;
+        padding: 5%;
+        display: block;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px 0 red;
+        width: 100px;
+        height: 100px;
+    }
+
+    h4 {
+        text-align: center;
+        -webkit-text-fill-color: rgba(0, 200, 200, 0.1);
+        -webkit-background-clip: text;
+        background-image: url("https://i.pinimg.com/originals/20/21/7f/20217f7fa2c9701b8128d8fb153a4db9.gif");
+        font-family: 'Allura', cursive;
+        padding: -2%;
+        font-size: 19px;
+        overflow: hidden;
+    }
+
+    .card-show{
+        opacity: 1 !important;
+        left: 0 !important;
+        transition: all 2s;
+    }
