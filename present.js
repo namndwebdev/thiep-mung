@@ -1,7 +1,7 @@
 
 // Cần hỗ trợ hãy liên hệ: 
 // Mr-Nam http://facebook.com/nam.nodemy
-// Nhóm zalo tự học lập trình: https://zalo.me/g/yhdkef092
+// Các bạn muốn học lập trình thì tham gia Nhóm zalo tự học lập trình nhé: https://zalo.me/g/yhdkef092
 
 var to = nameGirl;
 var gift_url = giftUrl;
