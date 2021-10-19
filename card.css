@@ -22,6 +22,7 @@
         box-shadow: 0 4px 8px 0 red;
         width: 100px;
         height: 100px;
+        object-fit: cover;
     }
 
     h4 {
