@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+/*              Sass Template           */
+/*  global classes  */
+button,
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* typography classes */
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  color: white !important;
+  font-size: 20px;
+}
+
+.font-size-14 {
+  font-size: 18px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/* Color Template  */
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #00a5c4;
+}
+
+.color-second-bg {
+  background: #48a1ff;
+}
+
+.color-yellow {
+  color: #ffd289;
+}
+
+.color-yellow-bg {
+  background: #ffd289;
+}
+
+/*  top sale template   */
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+  text-decoration: none;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #003859;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+/*   Special Price Section Template */
+#special-price .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+.btn a {
+  text-decoration: none;
+}
+.card a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
+
+.fa {
+  margin-left: 3px;
+  color: white;
+  font-size:20px;
+}
+a.px-3:hover {
+  text-decoration: none;
+}
+.fa:hover{
+  cursor: pointer;
+
+}
+.d-flex a {
+  text-decoration: none;
+}
+#filters .btn {
+  background-color:rgb(255, 200, 21);
+}
+#filters .btn:hover {
+  background-color:rgb(207, 168, 39);
+}
+
+
+.col a {
+  color: black;
+}
+
+#header .bg-light {
+  background-color: #7785ff!important;
+}
+.text-dark {
+  color: white!important;
+}
+#footer #contact .container h3  {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 44%;
+  font-size:40px;
+}
+#footer #contact .container p  {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 38%;
+
+}
+#footer #contact .container span {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 38%;
+
+}
+#footer #contact .container hr {
+  width: 50%;
+  background-color:white;
+}
+#footer #contact .container .location_icon{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 5px;
+  text-align:center;
+  
+}
+#footer #contact .container li{
+  padding-right: 20px;
+  height :60px;
+}
+#footer #contact .container li a{
+  
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border: solid #fff 1px;
+    float: left;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 100%;
+    font-size: 19px;
+}
+.fa-facebook-f {
+  color: #2a86ff;
+}
+.fa-twitter {
+  color: #00a5c4;
+}
+.fa-instagram {
+  color: rgb(232, 80, 148);
+}
+input[type="text"] {
+  width: 150px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 4px;
+  outline:none;
+  padding: 4px 14px;
+}
+input[type="text"]:focus{
+  width:500px; 
+}
+input[type="text"] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 4px;
+  outline:none;
+  padding: 4px 14px;
+
+  transition:0.6s ease-in-out;
+}
+
+
+
+
